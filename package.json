@@ -1,0 +1,30 @@
+{
+  "name": "forgemesh",
+  "version": "1.0.0",
+  "description": "Autonomous Multi-Agent DevOps & Self-Healing Code Engine for WCC Forge 48",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "serve": "tsx src/server.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "agentic-ai",
+    "multi-agent",
+    "autonomous-devops",
+    "self-healing",
+    "hackathon",
+    "wcc-forge-48"
+  ],
+  "author": "Siddharth Srivastava (@sidsri14)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.3"
+  }
+}
